@@ -107,7 +107,27 @@ class UsuariosController extends Controller
      */
     public function store(Request $request)
     {
-        //
+       //Validar los datos recibidos
+       $datos = request()->validate([
+        'name' => ['string','max:255'],
+        'rol' => ['required'],
+        'email' => ['string', 'unique:users'],
+        'password' => ['string','min:3']
+    ]);
+    
+    //Crear el registro en la tabla users en la base de datos 
+    Usuarios::create([
+        'name' => $datos['name'],
+        'email' => $datos['email'],
+        'rol' => $datos['rol'],
+        'password'=> Hash::make($datos['password']),
+        'documento' => '',
+        'foto' => ''
+    ]);
+
+    //redireccionamos a la vista de usuarios, al llamar a la ruta usuarios
+    return redirect('Usuarios')->with('UsuarioCreado','OK');
+
     }
 
     /**

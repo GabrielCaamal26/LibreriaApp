@@ -716,9 +716,11 @@
 <!--DataTables responsive scripts -->
 <script src="plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
 <script src="plugins/datatables-responsive/js/dataTables.bootstrap4.min.js"></script>
+<!--SweetAlert2 scripts -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script type="text/javascript">
     $(".dtUsers").DataTable({
-"language": {
+  "language": {
 "sSearch": "Buscar:",
 "sEmptyTable": "No hay datos en la Tabla",
 "sZeroRecords": "No se encontraron resultados",
@@ -735,5 +737,16 @@
 "sLengthMenu": "Mostrar _MENU_ registros"
 }
 });
+</script>
+@if(session('UsuarioCreado')=='OK')
+<script type="text/javascript">
+  Swal.fire(
+    'El usuario ha sido creado',
+    '',
+    'success'
+  );
+  </script>
+@endif
+
 </body>
 </html>
