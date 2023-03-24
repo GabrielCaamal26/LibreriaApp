@@ -8,27 +8,27 @@
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="http://localhost/LibreriaApp/public/plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Tempusdominus Bootstrap 4 -->
-  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <link rel="stylesheet" href="http://localhost/LibreriaApp/public/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
   <!-- iCheck -->
-  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <link rel="stylesheet" href="http://localhost/LibreriaApp/public/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <!-- JQVMap -->
-  <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+  <link rel="stylesheet" href="http://localhost/LibreriaApp/public/plugins/jqvmap/jqvmap.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="http://localhost/LibreriaApp/public/dist/css/adminlte.min.css">
   <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <link rel="stylesheet" href="http://localhost/LibreriaApp/public/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <!-- Daterange picker -->
-  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  <link rel="stylesheet" href="http://localhost/LibreriaApp/public/plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
-  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+  <link rel="stylesheet" href="http://localhost/LibreriaApp/public/plugins/summernote/summernote-bs4.min.css">
     <!--databases bootstrap-->
-    <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="http://localhost/LibreriaApp/public/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
   <!--databases bootstrap responsive-->
-  <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+  <link rel="stylesheet" href="http://localhost/LibreriaApp/public/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed login-page">
 @if(Auth::user())
@@ -677,45 +677,53 @@
     @yield('content')
 @endif
 <!-- jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
+<script src="http://localhost/LibreriaApp/public/plugins/jquery/jquery.min.js"></script>
 <!-- jQuery UI 1.11.4 -->
-<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="http://localhost/LibreriaApp/public/plugins/jquery-ui/jquery-ui.min.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
   $.widget.bridge('uibutton', $.ui.button)
 </script>
 <!-- Bootstrap 4 -->
-<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="http://localhost/LibreriaApp/public/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- ChartJS -->
-<script src="plugins/chart.js/Chart.min.js"></script>
+<script src="http://localhost/LibreriaApp/public/plugins/chart.js/Chart.min.js"></script>
 <!-- Sparkline -->
-<script src="plugins/sparklines/sparkline.js"></script>
+<script src="http://localhost/LibreriaApp/public/plugins/sparklines/sparkline.js"></script>
 <!-- JQVMap -->
-<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
-<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<script src="http://localhost/LibreriaApp/public/plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="http://localhost/LibreriaApp/public/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
 <!-- jQuery Knob Chart -->
-<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+<script src="http://localhost/LibreriaApp/public/plugins/jquery-knob/jquery.knob.min.js"></script>
 <!-- daterangepicker -->
-<script src="plugins/moment/moment.min.js"></script>
-<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<script src="http://localhost/LibreriaApp/public/plugins/moment/moment.min.js"></script>
+<script src="http://localhost/LibreriaApp/public/plugins/daterangepicker/daterangepicker.js"></script>
 <!-- Tempusdominus Bootstrap 4 -->
-<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<script src="http://localhost/LibreriaApp/public/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
 <!-- Summernote -->
-<script src="plugins/summernote/summernote-bs4.min.js"></script>
+<script src="http://localhost/LibreriaApp/public/plugins/summernote/summernote-bs4.min.js"></script>
 <!-- overlayScrollbars -->
-<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<script src="http://localhost/LibreriaApp/public/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
-<script src="dist/js/adminlte.js"></script>
+<script src="http://localhost/LibreriaApp/public/dist/js/adminlte.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="dist/js/demo.js"></script>
+<script src="http://localhost/LibreriaApp/public/dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="dist/js/pages/dashboard.js"></script>
-<!--DataTables scripts-->
-<script src="plugins/datatables/jquery.dataTables.min.js"></script>
-<script src="plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
-<!--DataTables responsive scripts -->
-<script src="plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
-<script src="plugins/datatables-responsive/js/dataTables.bootstrap4.min.js"></script>
+<script src="http://localhost/LibreriaApp/public/dist/js/pages/dashboard.js"></script>
+
+<!-- dataTables scripts -->
+<script src="http://localhost/LibreriaApp/public/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="http://localhost/LibreriaApp/public/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+<!-- dataTables Responsive scripts -->
+<script src="http://localhost/LibreriaApp/public/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+<script src="http://localhost/LibreriaApp/public/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+
+<script src="http://localhost/LibreriaApp/public/plugins/inputmask/jquery.inputmask.extensions.js"></script>
+<script src="http://localhost/LibreriaApp/public/plugins/inputmask/jquery.inputmask.date.extensions.js"></script>
+<script src="http://localhost/LibreriaApp/public/plugins/inputmask/jquery.inputmask.js"></script>
+
+
+
 <!--SweetAlert2 scripts -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script type="text/javascript">
@@ -737,7 +745,48 @@
 "sLengthMenu": "Mostrar _MENU_ registros"
 }
 });
+$('.table').on('click','.EliminarUsuario',function(){
+    var Uid = $(this).attr('Uid');
+    var Usuario = $(this).attr('Usuario');
+
+    Swal.fire({
+
+      title: '¿Seguro que desea eliminar el Usuario: '+Usuario+' '+Uid+'?',
+      icon: 'warning',
+      showCancelButton: true,
+      cancelButtonText: 'Cancelar',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Eliminar',
+      confirmButtonColor: '#3085d6',
+    }).then((result)=>{
+      if(result.isConfirmed){
+        window.location = "Eliminar-Usuario/"+Uid;
+      }
+    })
+  });
+  
+  $('.table').on('click','.EliminarCliente',function(){
+    var Cid = $(this).attr('Cid');
+    var Cliente = $(this).attr('Cliente');
+
+    Swal.fire({
+
+      title: '¿Seguro que desea eliminar el Usuario: '+Cliente+'?',
+      icon: 'warning',
+      showCancelButton: true,
+      cancelButtonText: 'Cancelar',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Eliminar',
+      confirmButtonColor: '#3085d6',
+    }).then((result)=>{
+      if(result.isConfirmed){
+        window.location = "Eliminar-Cliente/"+Cid;
+      }
+    })
+  });
+  $('[data-mask]').inputmask();
 </script>
+
 @if(session('UsuarioCreado')=='OK')
 <script type="text/javascript">
   Swal.fire(
@@ -746,7 +795,41 @@
     'success'
   );
   </script>
+  @elseif(session('ClienteCreado')=='OK')
+<script type="text/javascript">
+  Swal.fire(
+    'El cliente ha sido creado',
+    '',
+    'success'
+  )
+</script>
+@elseif(session('ClienteActualizado')=='OK')
+<script type="text/javascript">
+  Swal.fire(
+    'El cliente ha sido actualizado',
+    '',
+    'success'
+  )
+</script>
 @endif
 
+<?php
+  $exp = explode('/', $_SERVER["REQUEST_URI"]);
+  echo $exp[3];
+?>
+
+@if($exp[3]=='Editar-Usuario')
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#EditarUsuario').modal('toggle');
+    });
+  </script>
+  @elseif($exp[3]=='Editar-Cliente')
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#EditarCliente').modal('toggle');
+    });
+  </script>
+  @endif
 </body>
 </html>

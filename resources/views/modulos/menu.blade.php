@@ -51,7 +51,14 @@
           </p>
         </a>
       </li>
-
+      <li class="nav-item">
+            <a href="{{ url('Clientes')}}" class="nav-link">
+              <i class="nav-icon fas fa-user-friends"></i>
+              <p>
+                Clientes
+              </p>
+            </a>
+          </li>
           <li class="nav-item">
             <a href="pages/widgets.html" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
